@@ -1,0 +1,5 @@
+C:\Users\gabrielly.fsplaza\Desktop\ais\calculadoraArea.exe
+C:\Users\gabrielly.fsplaza\Desktop\ais\calculadoraArea.dll
+C:\Users\gabrielly.fsplaza\Desktop\ais\calculadoraArea.deps.json
+C:\Users\gabrielly.fsplaza\Desktop\ais\calculadoraArea.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\Desktop\ais\calculadoraArea.pdb
