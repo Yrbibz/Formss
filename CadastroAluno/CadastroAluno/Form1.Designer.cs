@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             lblCadastro = new Label();
             grpDados = new GroupBox();
             lblEmail = new Label();
             lblNome = new Label();
             lblMatricula = new Label();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtEmail = new TextBox();
+            txtNome = new TextBox();
+            txtMatricula = new TextBox();
             grpHobbies = new GroupBox();
             chcVolei = new CheckBox();
             chcProgramar = new CheckBox();
@@ -53,11 +55,17 @@
             rdbTarde = new RadioButton();
             rdbManha = new RadioButton();
             cmbCurso = new ComboBox();
+            btnSalvar = new Button();
+            btnLimpar = new Button();
+            btnSair = new Button();
+            pictureBox1 = new PictureBox();
+            toolTip1 = new ToolTip(components);
             grpDados.SuspendLayout();
             grpHobbies.SuspendLayout();
             grpSexo.SuspendLayout();
             grpCurso.SuspendLayout();
             grpPeriodo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // lblCadastro
@@ -76,9 +84,9 @@
             grpDados.Controls.Add(lblEmail);
             grpDados.Controls.Add(lblNome);
             grpDados.Controls.Add(lblMatricula);
-            grpDados.Controls.Add(textBox3);
-            grpDados.Controls.Add(textBox2);
-            grpDados.Controls.Add(textBox1);
+            grpDados.Controls.Add(txtEmail);
+            grpDados.Controls.Add(txtNome);
+            grpDados.Controls.Add(txtMatricula);
             grpDados.Controls.Add(grpHobbies);
             grpDados.Controls.Add(grpSexo);
             grpDados.Location = new Point(12, 138);
@@ -115,26 +123,26 @@
             lblMatricula.TabIndex = 5;
             lblMatricula.Text = "Matrícula:";
             // 
-            // textBox3
+            // txtEmail
             // 
-            textBox3.Location = new Point(67, 102);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(432, 23);
-            textBox3.TabIndex = 3;
+            txtEmail.Location = new Point(67, 102);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(432, 23);
+            txtEmail.TabIndex = 3;
             // 
-            // textBox2
+            // txtNome
             // 
-            textBox2.Location = new Point(69, 68);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(432, 23);
-            textBox2.TabIndex = 2;
+            txtNome.Location = new Point(69, 68);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(432, 23);
+            txtNome.TabIndex = 2;
             // 
-            // textBox1
+            // txtMatricula
             // 
-            textBox1.Location = new Point(86, 34);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(133, 23);
-            textBox1.TabIndex = 1;
+            txtMatricula.Location = new Point(86, 34);
+            txtMatricula.Name = "txtMatricula";
+            txtMatricula.Size = new Size(133, 23);
+            txtMatricula.TabIndex = 1;
             // 
             // grpHobbies
             // 
@@ -261,10 +269,9 @@
             // 
             lstMesInicio.FormattingEnabled = true;
             lstMesInicio.ItemHeight = 15;
-            lstMesInicio.Items.AddRange(new object[] { "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" });
             lstMesInicio.Location = new Point(392, 22);
             lstMesInicio.Name = "lstMesInicio";
-            lstMesInicio.Size = new Size(131, 79);
+            lstMesInicio.Size = new Size(131, 34);
             lstMesInicio.TabIndex = 15;
             lstMesInicio.SelectedIndexChanged += lstMesInicio_SelectedIndexChanged;
             // 
@@ -324,11 +331,72 @@
             cmbCurso.TabIndex = 11;
             cmbCurso.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
+            // btnSalvar
+            // 
+            btnSalvar.Image = (Image)resources.GetObject("btnSalvar.Image");
+            btnSalvar.ImageAlign = ContentAlignment.TopCenter;
+            btnSalvar.Location = new Point(115, 601);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(79, 84);
+            btnSalvar.TabIndex = 3;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.TextAlign = ContentAlignment.BottomCenter;
+            toolTip1.SetToolTip(btnSalvar, "Apere para salvar o cadastro");
+            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += btnSalvar_Click;
+            // 
+            // btnLimpar
+            // 
+            btnLimpar.Image = (Image)resources.GetObject("btnLimpar.Image");
+            btnLimpar.ImageAlign = ContentAlignment.TopCenter;
+            btnLimpar.Location = new Point(223, 601);
+            btnLimpar.Name = "btnLimpar";
+            btnLimpar.Size = new Size(79, 84);
+            btnLimpar.TabIndex = 4;
+            btnLimpar.Text = "Limpar";
+            btnLimpar.TextAlign = ContentAlignment.BottomCenter;
+            toolTip1.SetToolTip(btnLimpar, "Aperte para limpar todos os campos");
+            btnLimpar.UseVisualStyleBackColor = true;
+            btnLimpar.Click += btnLimpar_Click;
+            // 
+            // btnSair
+            // 
+            btnSair.Image = (Image)resources.GetObject("btnSair.Image");
+            btnSair.ImageAlign = ContentAlignment.TopCenter;
+            btnSair.Location = new Point(332, 601);
+            btnSair.Name = "btnSair";
+            btnSair.Size = new Size(79, 84);
+            btnSair.TabIndex = 5;
+            btnSair.Text = "Sair";
+            btnSair.TextAlign = ContentAlignment.BottomCenter;
+            toolTip1.SetToolTip(btnSair, "Aperte para sair");
+            btnSair.UseVisualStyleBackColor = true;
+            btnSair.Click += btnSair_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(18, 22);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(238, 90);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
+            // 
+            // toolTip1
+            // 
+            toolTip1.IsBalloon = true;
+            toolTip1.ToolTipIcon = ToolTipIcon.Info;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(547, 693);
+            Controls.Add(pictureBox1);
+            Controls.Add(btnSair);
+            Controls.Add(btnLimpar);
+            Controls.Add(btnSalvar);
             Controls.Add(grpCurso);
             Controls.Add(grpDados);
             Controls.Add(lblCadastro);
@@ -344,6 +412,7 @@
             grpCurso.PerformLayout();
             grpPeriodo.ResumeLayout(false);
             grpPeriodo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -365,9 +434,9 @@
         private Label lblEmail;
         private Label lblNome;
         private Label lblMatricula;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtEmail;
+        private TextBox txtNome;
+        private TextBox txtMatricula;
         private CheckBox chcVolei;
         private CheckBox chcProgramar;
         private CheckBox chcSeries;
@@ -375,5 +444,10 @@
         private CheckBox chcFut;
         private ListBox lstMesInicio;
         private Label label2;
+        private Button btnSalvar;
+        private Button btnLimpar;
+        private Button btnSair;
+        private PictureBox pictureBox1;
+        private ToolTip toolTip1;
     }
 }
