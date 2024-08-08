@@ -36,13 +36,13 @@
             lblSegundo = new Label();
             lblTerceiro = new Label();
             lblClassificacao = new Label();
-            pictureBox1 = new PictureBox();
+            pctTriangulo = new PictureBox();
             txtPrimeiro = new TextBox();
             txtSegundo = new TextBox();
             txtTerceiro = new TextBox();
             lblTriangulo = new Label();
             pictureBox2 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pctTriangulo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -74,6 +74,7 @@
             btnSair.TabIndex = 2;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = true;
+            btnSair.Click += btnSair_Click;
             // 
             // lblPrimeiro
             // 
@@ -108,19 +109,18 @@
             lblClassificacao.AutoSize = true;
             lblClassificacao.Location = new Point(266, 285);
             lblClassificacao.Name = "lblClassificacao";
-            lblClassificacao.Size = new Size(75, 15);
+            lblClassificacao.Size = new Size(78, 15);
             lblClassificacao.TabIndex = 6;
-            lblClassificacao.Text = "Classificação";
+            lblClassificacao.Text = "Classificação:";
             // 
-            // pictureBox1
+            // pctTriangulo
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(266, 126);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(202, 156);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
+            pctTriangulo.Location = new Point(266, 126);
+            pctTriangulo.Name = "pctTriangulo";
+            pctTriangulo.Size = new Size(202, 156);
+            pctTriangulo.SizeMode = PictureBoxSizeMode.StretchImage;
+            pctTriangulo.TabIndex = 8;
+            pctTriangulo.TabStop = false;
             // 
             // txtPrimeiro
             // 
@@ -176,7 +176,7 @@
             Controls.Add(txtTerceiro);
             Controls.Add(txtSegundo);
             Controls.Add(txtPrimeiro);
-            Controls.Add(pictureBox1);
+            Controls.Add(pctTriangulo);
             Controls.Add(lblClassificacao);
             Controls.Add(lblTerceiro);
             Controls.Add(lblSegundo);
@@ -186,7 +186,7 @@
             Controls.Add(btnVerificar);
             Name = "Form1";
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pctTriangulo).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -201,7 +201,7 @@
         private Label lblSegundo;
         private Label lblTerceiro;
         private Label lblClassificacao;
-        private PictureBox pictureBox1;
+        private PictureBox pctTriangulo;
         private TextBox txtPrimeiro;
         private TextBox txtSegundo;
         private TextBox txtTerceiro;
