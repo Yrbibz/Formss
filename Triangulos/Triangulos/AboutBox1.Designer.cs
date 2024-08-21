@@ -34,8 +34,8 @@
             labelVersion = new Label();
             labelCopyright = new Label();
             labelCompanyName = new Label();
-            okButton = new Button();
             textBoxDescription = new TextBox();
+            okButton = new Button();
             tableLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoPictureBox).BeginInit();
             SuspendLayout();
@@ -127,17 +127,6 @@
             labelCompanyName.Text = "Nome da Companhia";
             labelCompanyName.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // okButton
-            // 
-            okButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            okButton.DialogResult = DialogResult.Cancel;
-            okButton.Location = new Point(395, 277);
-            okButton.Margin = new Padding(4, 3, 4, 3);
-            okButton.Name = "okButton";
-            okButton.Size = new Size(88, 27);
-            okButton.TabIndex = 24;
-            okButton.Text = "&OK";
-            // 
             // textBoxDescription
             // 
             textBoxDescription.Dock = DockStyle.Fill;
@@ -152,6 +141,17 @@
             textBoxDescription.TabStop = false;
             textBoxDescription.Text = "Descrição";
             textBoxDescription.TextChanged += textBoxDescription_TextChanged;
+            // 
+            // okButton
+            // 
+            okButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            okButton.DialogResult = DialogResult.Cancel;
+            okButton.Location = new Point(395, 277);
+            okButton.Margin = new Padding(4, 3, 4, 3);
+            okButton.Name = "okButton";
+            okButton.Size = new Size(88, 27);
+            okButton.TabIndex = 24;
+            okButton.Text = "&OK";
             // 
             // frmSobre
             // 

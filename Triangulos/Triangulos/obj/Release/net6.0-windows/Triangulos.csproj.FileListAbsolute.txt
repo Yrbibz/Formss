@@ -1,0 +1,10 @@
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.csproj.AssemblyReference.cache
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.frmSobre.resources
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.Forms1.resources
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.Properties.Resources.resources
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.UserControl1.resources
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.csproj.GenerateResource.cache
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.AssemblyInfoInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.AssemblyInfo.cs
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Release\net6.0-windows\Triangulos.csproj.CoreCompileInputs.cache

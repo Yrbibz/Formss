@@ -1,0 +1,17 @@
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\bin\Debug\net6.0-windows\TesteTimer.exe
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\bin\Debug\net6.0-windows\TesteTimer.deps.json
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\bin\Debug\net6.0-windows\TesteTimer.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\bin\Debug\net6.0-windows\TesteTimer.dll
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\bin\Debug\net6.0-windows\TesteTimer.pdb
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.csproj.AssemblyReference.cache
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.Form1.resources
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.csproj.GenerateResource.cache
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.AssemblyInfoInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.AssemblyInfo.cs
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.csproj.CoreCompileInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.dll
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\refint\TesteTimer.dll
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.pdb
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\TesteTimer.genruntimeconfig.cache
+C:\Users\gabrielly.fsplaza\source\repos\TesteTimer\TesteTimer\obj\Debug\net6.0-windows\ref\TesteTimer.dll

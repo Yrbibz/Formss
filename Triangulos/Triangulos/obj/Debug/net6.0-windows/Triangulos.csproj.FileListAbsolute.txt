@@ -18,3 +18,4 @@ C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Debug\net6.0-w
 C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Debug\net6.0-windows\ref\Triangulos.dll
 C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Debug\net6.0-windows\Triangulos.frmSobre.resources
 C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Debug\net6.0-windows\Triangulos.UserControl1.resources
+C:\Users\gabrielly.fsplaza\source\repos\Triangulos\Triangulos\obj\Debug\net6.0-windows\Triangulos.Forms1.resources
