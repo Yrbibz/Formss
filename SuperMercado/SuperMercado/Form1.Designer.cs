@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             gpbDadosCliente = new GroupBox();
-            maskedTextBox1 = new MaskedTextBox();
+            msbCpf = new MaskedTextBox();
             checkBox1 = new CheckBox();
             btnAbreCupom = new Button();
             gpbProdutoAtual = new GroupBox();
@@ -47,12 +47,17 @@
             gpbCupom = new GroupBox();
             rtbCupom = new RichTextBox();
             groupBox1 = new GroupBox();
+            btnVerificar = new Button();
+            lblCodApaga = new Label();
+            txtCodigoApagar = new TextBox();
+            lblSenha = new Label();
             txtRemoverProduto = new TextBox();
             btnRemove = new Button();
             gpbTotal = new GroupBox();
             lblTotalCompra = new Label();
             btnIrPagamento = new Button();
             gpbFormaPagamento = new GroupBox();
+            btnCalcular = new Button();
             txtTroco = new TextBox();
             lblTroco = new Label();
             lblValorRecebido = new Label();
@@ -62,6 +67,7 @@
             rdbCredito = new RadioButton();
             rdbDebito = new RadioButton();
             pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
             gpbDadosCliente.SuspendLayout();
             gpbProdutoAtual.SuspendLayout();
             gpbCupom.SuspendLayout();
@@ -69,6 +75,7 @@
             gpbTotal.SuspendLayout();
             gpbFormaPagamento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -83,7 +90,7 @@
             // 
             // gpbDadosCliente
             // 
-            gpbDadosCliente.Controls.Add(maskedTextBox1);
+            gpbDadosCliente.Controls.Add(msbCpf);
             gpbDadosCliente.Controls.Add(checkBox1);
             gpbDadosCliente.Controls.Add(btnAbreCupom);
             gpbDadosCliente.Location = new Point(12, 53);
@@ -93,13 +100,13 @@
             gpbDadosCliente.TabStop = false;
             gpbDadosCliente.Text = "Dados do cliente";
             // 
-            // maskedTextBox1
+            // msbCpf
             // 
-            maskedTextBox1.Location = new Point(24, 59);
-            maskedTextBox1.Mask = "999.999.999-99";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(148, 23);
-            maskedTextBox1.TabIndex = 2;
+            msbCpf.Location = new Point(24, 59);
+            msbCpf.Mask = "999.999.999-99";
+            msbCpf.Name = "msbCpf";
+            msbCpf.Size = new Size(148, 23);
+            msbCpf.TabIndex = 2;
             // 
             // checkBox1
             // 
@@ -236,14 +243,56 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(btnVerificar);
+            groupBox1.Controls.Add(lblCodApaga);
+            groupBox1.Controls.Add(txtCodigoApagar);
+            groupBox1.Controls.Add(lblSenha);
             groupBox1.Controls.Add(txtRemoverProduto);
             groupBox1.Controls.Add(btnRemove);
             groupBox1.Location = new Point(318, 17);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(164, 115);
+            groupBox1.Size = new Size(164, 188);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Remover produto";
+            // 
+            // btnVerificar
+            // 
+            btnVerificar.Location = new Point(47, 69);
+            btnVerificar.Name = "btnVerificar";
+            btnVerificar.Size = new Size(76, 30);
+            btnVerificar.TabIndex = 4;
+            btnVerificar.Text = "Verficar";
+            btnVerificar.UseVisualStyleBackColor = true;
+            btnVerificar.Click += btnVerificar_Click;
+            // 
+            // lblCodApaga
+            // 
+            lblCodApaga.AutoSize = true;
+            lblCodApaga.Location = new Point(6, 113);
+            lblCodApaga.Name = "lblCodApaga";
+            lblCodApaga.Size = new Size(101, 15);
+            lblCodApaga.TabIndex = 3;
+            lblCodApaga.Text = "Código De Barras:";
+            lblCodApaga.Visible = false;
+            // 
+            // txtCodigoApagar
+            // 
+            txtCodigoApagar.Location = new Point(33, 130);
+            txtCodigoApagar.Name = "txtCodigoApagar";
+            txtCodigoApagar.Size = new Size(100, 23);
+            txtCodigoApagar.TabIndex = 0;
+            txtCodigoApagar.Visible = false;
+            txtCodigoApagar.TextChanged += txtCodigoApagar_TextChanged;
+            // 
+            // lblSenha
+            // 
+            lblSenha.AutoSize = true;
+            lblSenha.Location = new Point(6, 25);
+            lblSenha.Name = "lblSenha";
+            lblSenha.Size = new Size(42, 15);
+            lblSenha.TabIndex = 2;
+            lblSenha.Text = "Senha:";
             // 
             // txtRemoverProduto
             // 
@@ -251,16 +300,18 @@
             txtRemoverProduto.Name = "txtRemoverProduto";
             txtRemoverProduto.Size = new Size(100, 23);
             txtRemoverProduto.TabIndex = 1;
+            txtRemoverProduto.UseSystemPasswordChar = true;
             txtRemoverProduto.TextChanged += txtRemoverProduto_TextChanged;
             // 
             // btnRemove
             // 
-            btnRemove.Location = new Point(47, 69);
+            btnRemove.Location = new Point(47, 159);
             btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(76, 30);
+            btnRemove.Size = new Size(74, 29);
             btnRemove.TabIndex = 0;
             btnRemove.Text = "Remover";
             btnRemove.UseVisualStyleBackColor = true;
+            btnRemove.Visible = false;
             btnRemove.Click += btnRemove_Click;
             // 
             // gpbTotal
@@ -278,11 +329,12 @@
             // 
             lblTotalCompra.AutoSize = true;
             lblTotalCompra.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTotalCompra.Location = new Point(65, 59);
+            lblTotalCompra.Location = new Point(98, 59);
             lblTotalCompra.Name = "lblTotalCompra";
             lblTotalCompra.Size = new Size(57, 21);
             lblTotalCompra.TabIndex = 1;
             lblTotalCompra.Text = "label2";
+            lblTotalCompra.Visible = false;
             // 
             // btnIrPagamento
             // 
@@ -296,6 +348,7 @@
             // 
             // gpbFormaPagamento
             // 
+            gpbFormaPagamento.Controls.Add(btnCalcular);
             gpbFormaPagamento.Controls.Add(txtTroco);
             gpbFormaPagamento.Controls.Add(lblTroco);
             gpbFormaPagamento.Controls.Add(lblValorRecebido);
@@ -312,9 +365,20 @@
             gpbFormaPagamento.TabStop = false;
             gpbFormaPagamento.Text = "Forma de pagamento";
             // 
+            // btnCalcular
+            // 
+            btnCalcular.Location = new Point(97, 139);
+            btnCalcular.Name = "btnCalcular";
+            btnCalcular.Size = new Size(57, 23);
+            btnCalcular.TabIndex = 8;
+            btnCalcular.Text = "Calcular";
+            btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
+            // 
             // txtTroco
             // 
-            txtTroco.Location = new Point(134, 139);
+            txtTroco.Enabled = false;
+            txtTroco.Location = new Point(172, 139);
             txtTroco.Name = "txtTroco";
             txtTroco.Size = new Size(64, 23);
             txtTroco.TabIndex = 7;
@@ -322,7 +386,7 @@
             // lblTroco
             // 
             lblTroco.AutoSize = true;
-            lblTroco.Location = new Point(134, 123);
+            lblTroco.Location = new Point(172, 121);
             lblTroco.Name = "lblTroco";
             lblTroco.Size = new Size(36, 15);
             lblTroco.TabIndex = 6;
@@ -339,7 +403,8 @@
             // 
             // txtValorRecebido
             // 
-            txtValorRecebido.Location = new Point(18, 139);
+            txtValorRecebido.Enabled = false;
+            txtValorRecebido.Location = new Point(10, 139);
             txtValorRecebido.Name = "txtValorRecebido";
             txtValorRecebido.Size = new Size(64, 23);
             txtValorRecebido.TabIndex = 4;
@@ -352,6 +417,7 @@
             btnFinalizar.TabIndex = 3;
             btnFinalizar.Text = "Finalizar Compra";
             btnFinalizar.UseVisualStyleBackColor = true;
+            btnFinalizar.Click += btnFinalizar_Click;
             // 
             // rdbDinheiro
             // 
@@ -363,6 +429,7 @@
             rdbDinheiro.TabStop = true;
             rdbDinheiro.Text = "Dinheiro";
             rdbDinheiro.UseVisualStyleBackColor = true;
+            rdbDinheiro.CheckedChanged += rdbDinheiro_CheckedChanged;
             // 
             // rdbCredito
             // 
@@ -396,11 +463,22 @@
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(12, 315);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(181, 130);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(974, 496);
+            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(gpbFormaPagamento);
             Controls.Add(gpbTotal);
@@ -409,7 +487,7 @@
             Controls.Add(gpbDadosCliente);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "SUPERMERCADO TABAJARA";
             gpbDadosCliente.ResumeLayout(false);
             gpbDadosCliente.PerformLayout();
             gpbProdutoAtual.ResumeLayout(false);
@@ -422,6 +500,7 @@
             gpbFormaPagamento.ResumeLayout(false);
             gpbFormaPagamento.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -457,9 +536,15 @@
         private RadioButton rdbDebito;
         private GroupBox groupBox1;
         private TextBox txtRemoverProduto;
-        private MaskedTextBox maskedTextBox1;
+        private MaskedTextBox msbCpf;
         private CheckBox checkBox1;
         private PictureBox pictureBox1;
         private RichTextBox rtbCupom;
+        private PictureBox pictureBox2;
+        private TextBox txtCodigoApagar;
+        private Button btnVerificar;
+        private Label lblCodApaga;
+        private Label lblSenha;
+        private Button btnCalcular;
     }
 }
