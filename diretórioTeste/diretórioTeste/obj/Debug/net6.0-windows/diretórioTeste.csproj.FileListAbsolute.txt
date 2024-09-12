@@ -1,0 +1,17 @@
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\bin\Debug\net6.0-windows\diretórioTeste.exe
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\bin\Debug\net6.0-windows\diretórioTeste.deps.json
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\bin\Debug\net6.0-windows\diretórioTeste.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\bin\Debug\net6.0-windows\diretórioTeste.dll
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\bin\Debug\net6.0-windows\diretórioTeste.pdb
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.csproj.AssemblyReference.cache
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.Form1.resources
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.csproj.GenerateResource.cache
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.AssemblyInfoInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.AssemblyInfo.cs
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.csproj.CoreCompileInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.dll
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\refint\diretórioTeste.dll
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.pdb
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\diretórioTeste.genruntimeconfig.cache
+C:\Users\gabrielly.fsplaza\source\repos\diretórioTeste\diretórioTeste\obj\Debug\net6.0-windows\ref\diretórioTeste.dll
