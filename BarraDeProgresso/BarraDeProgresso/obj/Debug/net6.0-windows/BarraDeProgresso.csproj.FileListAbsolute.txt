@@ -1,0 +1,17 @@
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\bin\Debug\net6.0-windows\BarraDeProgresso.exe
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\bin\Debug\net6.0-windows\BarraDeProgresso.deps.json
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\bin\Debug\net6.0-windows\BarraDeProgresso.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\bin\Debug\net6.0-windows\BarraDeProgresso.dll
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\bin\Debug\net6.0-windows\BarraDeProgresso.pdb
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.csproj.AssemblyReference.cache
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.Form1.resources
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.csproj.GenerateResource.cache
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.AssemblyInfoInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.AssemblyInfo.cs
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.csproj.CoreCompileInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.dll
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\refint\BarraDeProgresso.dll
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.pdb
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\BarraDeProgresso.genruntimeconfig.cache
+C:\Users\gabrielly.fsplaza\source\repos\BarraDeProgresso\BarraDeProgresso\obj\Debug\net6.0-windows\ref\BarraDeProgresso.dll

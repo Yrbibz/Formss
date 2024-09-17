@@ -1,0 +1,17 @@
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\bin\Debug\net6.0-windows\copiaecola.exe
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\bin\Debug\net6.0-windows\copiaecola.deps.json
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\bin\Debug\net6.0-windows\copiaecola.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\bin\Debug\net6.0-windows\copiaecola.dll
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\bin\Debug\net6.0-windows\copiaecola.pdb
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.csproj.AssemblyReference.cache
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.Form1.resources
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.csproj.GenerateResource.cache
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.AssemblyInfoInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.AssemblyInfo.cs
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.csproj.CoreCompileInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.dll
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\refint\copiaecola.dll
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.pdb
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\copiaecola.genruntimeconfig.cache
+C:\Users\gabrielly.fsplaza\source\repos\copiaecola\copiaecola\obj\Debug\net6.0-windows\ref\copiaecola.dll

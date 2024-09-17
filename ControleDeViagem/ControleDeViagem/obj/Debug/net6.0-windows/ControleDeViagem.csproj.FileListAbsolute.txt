@@ -1,0 +1,17 @@
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\bin\Debug\net6.0-windows\ControleDeViagem.exe
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\bin\Debug\net6.0-windows\ControleDeViagem.deps.json
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\bin\Debug\net6.0-windows\ControleDeViagem.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\bin\Debug\net6.0-windows\ControleDeViagem.dll
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\bin\Debug\net6.0-windows\ControleDeViagem.pdb
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.csproj.AssemblyReference.cache
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.Form1.resources
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.csproj.GenerateResource.cache
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.AssemblyInfoInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.AssemblyInfo.cs
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.csproj.CoreCompileInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.dll
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\refint\ControleDeViagem.dll
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.pdb
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ControleDeViagem.genruntimeconfig.cache
+C:\Users\gabrielly.fsplaza\source\repos\ControleDeViagem\ControleDeViagem\obj\Debug\net6.0-windows\ref\ControleDeViagem.dll

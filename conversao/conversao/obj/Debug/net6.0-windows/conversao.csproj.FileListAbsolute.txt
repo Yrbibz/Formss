@@ -1,0 +1,17 @@
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\bin\Debug\net6.0-windows\conversao.exe
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\bin\Debug\net6.0-windows\conversao.deps.json
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\bin\Debug\net6.0-windows\conversao.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\bin\Debug\net6.0-windows\conversao.dll
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\bin\Debug\net6.0-windows\conversao.pdb
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.csproj.AssemblyReference.cache
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.Form1.resources
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.csproj.GenerateResource.cache
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.AssemblyInfoInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.AssemblyInfo.cs
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.csproj.CoreCompileInputs.cache
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.dll
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\refint\conversao.dll
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.pdb
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\conversao.genruntimeconfig.cache
+C:\Users\gabrielly.fsplaza\source\repos\conversao\conversao\obj\Debug\net6.0-windows\ref\conversao.dll

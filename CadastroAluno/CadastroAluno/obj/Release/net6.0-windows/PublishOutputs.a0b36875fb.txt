@@ -1,0 +1,5 @@
+C:\Users\gabrielly.fsplaza\source\repos\CadastroAluno.exe
+C:\Users\gabrielly.fsplaza\source\repos\CadastroAluno.dll
+C:\Users\gabrielly.fsplaza\source\repos\CadastroAluno.deps.json
+C:\Users\gabrielly.fsplaza\source\repos\CadastroAluno.runtimeconfig.json
+C:\Users\gabrielly.fsplaza\source\repos\CadastroAluno.pdb
